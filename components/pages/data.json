@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Day Planner",
+        "repo": "https://github.com/Danrub98/Day-Planner",
+        "link": "https://danrub98.github.io/Day-Planner/",
+        "img": "./images/dayPlanner.png"
+    },
+    {
+        "title": "Password Generator",
+        "repo": "https://github.com/Danrub98/password-generator",
+        "link": "https://danrub98.github.io/password-generator/",
+        "img": "./images/password.png"
+    },
+    {
+        "title": "Financial Planner",
+        "repo": "https://github.com/cbrito1994/Financial-Planner",
+        "link": "https://limitless-wildwood-19082.herokuapp.com/",
+        "img": "./images/financial.jpg"
+    }
+]

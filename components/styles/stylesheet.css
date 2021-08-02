@@ -1,0 +1,309 @@
+body{
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+p{
+    margin: 0;
+}
+
+.hr{
+    /* position: relative;*/
+    width: 40%;
+    border-top: 5px dotted;
+    border-bottom: none;
+    margin: auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h3{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+h4{
+    font-size: 1.2rem;
+    margin-top: .8rem;
+}
+
+.githubLink{
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 50px;
+    margin-top: 1rem;
+    font-size: 30px;
+    color: black;
+    display: inline-block;
+    border:solid .1rem ;
+    background-color: #7c9473;
+}
+
+
+
+.header{
+    background-color: #7c9473;
+    padding-bottom: .6rem;
+}
+
+.h1header{
+    display: inline-block;
+    margin: auto;
+    left: 3rem;
+    padding-top: 4px;
+    color:snow;
+}
+
+.header {
+    float: right;
+}
+
+.header ul{
+    list-style: none;
+}
+
+.header ul li{
+    display: inline;
+    flex-wrap: wrap;
+    margin-left: 1.3rem;
+    margin-right: 1.3rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2.5;
+}
+
+.section2{
+    background-color: #cfdac8;
+    /*position:relative;*/
+    padding-top: 1.5rem;
+    height: 28.1rem;
+    text-align: center;
+
+}
+
+.foto{
+    z-index: 1;
+    width: 20%;
+    height: auto;
+}
+
+.titleh3{
+    bottom: 28.1rem;
+    left: 28.1rem;
+    font-size: 1.9rem;
+    margin: 1.8rem 0 1.8rem 2.8rem;
+}
+
+.firstproject{
+    top: 15.6rem;
+    background-color: #e8eae6;
+    height: 38.7rem;
+    text-align: center;
+    padding-right: 0;
+}
+
+.project1{
+    /*position:relative;*/
+    /*z-index: 1;*/
+    width: 60%;
+    height: auto;
+    border-radius: 1.1rem;
+}
+
+.workprojects{
+    background-color: #cdd0cb;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+}
+
+.h3projects{
+    text-align: center;
+}
+
+.projectcontainer{
+    /*flex-wrap: wrap;*/
+    height: 18.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mywebpage{
+    /*position: relative;*/
+    width: 300px;
+    height: 180px;
+    /*top: 50px;*/
+    /*margin: 0 50px;*/
+    border-radius: 12px;
+}
+
+.workprogress{
+    /*position: relative;*/
+    width: 300px;
+    height: 180px;
+   /* top: 3.1rem;*/
+    /*margin: 0 3.1rem;*/
+    border-radius: 12px;
+}
+
+.skillsSection{
+    background-color: #e8eae6;
+    padding-bottom: 150px;
+}
+
+.skill{
+    margin-top: 2rem;
+    width: 35%;
+    float: left;
+    margin-right: 1.8rem;
+    border-radius: 3.1rem;
+}
+
+.skill-row{
+    width:50%;
+    margin:1.5rem auto 0 auto;
+    line-height: 1.5;
+    text-align: left;
+    margin-top: 3.1rem;
+  }
+
+  .research{
+    margin-top: 1.5rem;
+    width: 35%;
+    float: left;
+    margin-right: 1.8rem;
+    border-radius: 3.1rem;
+  }
+
+  .footer{
+      text-align: center;
+  }
+
+  .btn {
+    margin-top: 1rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-family: Garamond;
+    font-size: 40px;
+    font-weight: 200;
+    padding: 15px;
+    background-color: #66BFBF;
+    border: solid #66BFBF 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+
+ .btn:hover {
+    background: #1E62D0;
+    border: solid #66BFBF 1px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .footer{
+     background-color: #7c9473;
+     padding-bottom: 15px;
+ }
+
+ @media screen and (max-width: 768px){
+    /*hr{
+        width: 40%;
+        margin: auto;
+    } */
+
+    .header{
+         padding-bottom: 50px;
+         display: flex;
+         justify-content: space-evenly;
+         flex-direction: column;
+    }
+
+    .header div ul li{
+        display: flex;
+        justify-content:space-around;
+    }
+
+    .header div ul{
+        display: flex;
+        flex-direction:column;
+        justify-content: space-evenly;
+
+    }
+
+    .foto{
+        width: 30%;
+        position: none;
+    }
+
+    .section2{
+        height: 290px;
+    }
+
+    .githubLink{
+        justify-content: center;
+        margin-top: 1rem;
+        font-size: 25px;
+        color: black;
+        display: inline-block;
+        border:solid .1rem ;
+        background-color: #7c9473;
+    }
+
+    .firstproject{
+        height: 370px;
+        margin: auto;
+    }
+
+    .mywebpage{
+        width: 100px;
+        height: 100px;
+    }
+
+    .workprogress{
+        width: 100px;
+        height: 100px;
+    }
+
+    .workprojects{
+        margin-top: 15px;
+        display: flex;
+        flex-direction:column;
+        padding-bottom: 10px;
+    }
+
+    section h3{
+        margin-bottom: 10px;
+    }
+
+    .projectcontainer{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .skill{
+        float: none;
+    }
+
+    .project1{
+        position:none;
+    }
+}
